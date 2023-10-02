@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: plum;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    /* animation-name:ColorAnimate ;
+    animation-duration: 2s ; */
+    /* animation-timing-function: ; */
+    /* animation-delay:0s ;
+    animation-iteration-count: infinite; */
+    /* transform: translate(200px); */
+    /* animation-direction: alternate; */
+    animation: ColorAnimate 3s ease-in 0s infinite alternate;
+    
+}
+
+@keyframes ColorAnimate {
+    0%{ left: 0px;
+    background-color: blueviolet;}
+    50%{
+        background-color: chartreuse;
+    }
+    100%{ left: 200px ;
+    background-color: blue;}
+    
+}
+
